@@ -1,0 +1,33 @@
+.profile {
+  .card {
+    max-width: 700px;
+    display: flex;
+    justify-content: flex-start;
+
+    padding: 1rem 0;
+
+    span.profile-photo {
+      text-align: center;
+    }
+
+    img {
+      width: 100%;
+      max-width: 350px;
+      padding-right: 1rem;
+      padding-left: 1rem;
+    }
+    span.profile-data {
+      margin: 0 1rem;
+    }
+    span.profile-data > * {
+      border-top: 1px solid #ccc;
+      padding: 5px 0;
+    }
+  }
+}
+
+@media screen and (max-width: 600px) {
+  span.profile-photo {
+    margin: auto;
+  }
+}
